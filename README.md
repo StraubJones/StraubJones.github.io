@@ -1,6 +1,6 @@
-# portfolio
+# J. Christian Straubhaar-Jones' Web Development Portfolio
 
-A new project in the making.
+A personal portfolio website, with details concerning my various web development projects.
 
 ## Getting Started
 
