@@ -1,9 +1,10 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-const Router = require('react-router').Router
-const Route = require('react-router').Route
-const browserHistory = require('react-router').browserHistory
-const App = require('./components/app');
+const Router = require('react-router').Router;
+const Route = require('react-router').Route;
+const IndexRoute = require('react-router').IndexRoute;
+const browserHistory = require('react-router').browserHistory;
+const Nav = require('./components/nav');
 const Home = require('./components/home');
 const Frontend = require('./components/frontend');
 const Contact = require('./components/contact');
@@ -12,11 +13,12 @@ const About = require('./components/about');
 
 ReactDOM.render(
   <Router history={browserHistory}>
-      <Route path="/" component={Home}/>
-      <Route path="/frontend" component={Frontend}/>
-      <Route path="/humanities" component={Humanities}/>
-      <Route path="/about" component={About}/>
-      <Route path="/contact" component={Contact}/>
+      <Route path="/" component={Nav}/>
+        <IndexRoute component={Home} />
+        <Route path="/frontend" component={Frontend}/>
+        <Route path="/humanities" component={Humanities}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contact" component={Contact}/>
   </Router>,
   document.getElementById('app')
 );
