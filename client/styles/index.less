@@ -11,7 +11,31 @@ body {
   background-color: #78d4f7;
 }
 
-nav {
+.nav {
+  position: fixed;
   background-color: #c18d3d;
   list-style: none;
+  width: 100vw;
+  height: 3.4rem;
+  top: 0rem;
+  left: 0rem;
+  .monogram {
+    height: 3.4rem;
+    float: left;
+  }
+  .nav-first{
+    margin-left: 35%;
+  }
+  a {
+    color: #53565a;
+    text-decoration: none;
+    font-family: "Garamond", serif;
+    margin: 1rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    &:hover{
+      color: #009ccf;
+    }
+  }
 }

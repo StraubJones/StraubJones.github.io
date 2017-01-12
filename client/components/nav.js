@@ -4,10 +4,11 @@ const Link = require('react-router').Link
 class Nav extends React.Component {
   render(){
     return (
-      <div>
-        <Link to="/">Full-Stack Work</Link>
-        <Link to="/frontend">Older Front-End Work</Link>
-        <Link to="/humanities">Academic Digital Humanities Work</Link>
+      <div className="nav">
+        <img className="monogram" src="./images/Monogram.png"/>
+        <Link className="nav-first" to="/">Full-Stack</Link>
+        <Link to="/frontend">Front-End</Link>
+        <Link to="/humanities">DH</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </div>
