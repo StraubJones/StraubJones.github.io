@@ -6,11 +6,11 @@ class Nav extends React.Component {
     return (
       <div className="nav">
         <img className="monogram" src="./images/Monogram.png"/>
-        <Link className="nav-first" to="/">Full-Stack</Link>
-        <Link to="/frontend">Front-End</Link>
-        <Link to="/humanities">DH</Link>
-        <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/about">About</Link>
+        <Link to="/humanities">DH</Link>
+        <Link to="/frontend">Front-End</Link>
+        <Link className="nav-first" to="/">Full-Stack</Link>
       </div>
     )
   }
@@ -19,7 +19,9 @@ class Nav extends React.Component {
 const Container = (props) =>
   <div>
     <Nav />
-    {props.children}
+    <div>
+      {props.children}
+    </div>
   </div>
 
 
