@@ -2,6 +2,13 @@
 
 A personal portfolio website, with details concerning my various web development projects.
 
+## New Tool Explorations in This Project
+As this site states, I like to explore new tools! The ones that I explored for the first time here are:
+- React Router
+- [React Scroll](https://github.com/fisshy/react-scroll) (an open source project)
+- LESS
+
+
 ## Getting Started
 
 ```
