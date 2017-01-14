@@ -50,14 +50,14 @@ class Home extends React.Component {
           <i className="fa fa-2x fa-arrow-down"></i>
         </button>
         <Element className="project-snapshot" name="second-project" id="second-project">
-          <img alt="project screenshot" src="./images/Tournament Manager.png" />
+          <img alt="project screenshot" src="./images/TournamentManager.png" />
         </Element>
         <button onClick={scrollToThird} className="examples">
           MORE STILL
           <i className="fa fa-2x fa-arrow-down"></i>
         </button>
         <Element className="project-snapshot" name="third-project" id="third-project">
-          <img alt="project screenshot" src="./images/Wage Gap Calculator.png" />
+          <img alt="project screenshot" src="./images/WageGapCalculator.png" />
         </Element>
       </div>
     )
