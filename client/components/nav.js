@@ -19,9 +19,7 @@ class Nav extends React.Component {
 const Container = (props) =>
   <div>
     <Nav />
-    <div>
-      {props.children}
-    </div>
+    {props.children}
   </div>
 
 
