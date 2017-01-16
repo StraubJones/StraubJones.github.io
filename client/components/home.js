@@ -11,7 +11,6 @@ const options = {
 let elementName;
 
 function scrollTo(elementName){
-  console.log('scrolling to: ', elementName);
   scroller.scrollTo(elementName, options);
 }
 function scrollToFirst(){
@@ -40,21 +39,28 @@ class Home extends React.Component {
         </figure>
         <button onClick={scrollToFirst} className="examples">
           SOME EXAMPLES
-          <i className="fa fa-2x fa-arrow-down"></i>
+          <i className="fa fa-2x fa-caret-down"></i>
         </button>
         <Element className="project-snapshot" name="first-project" id="first-project">
           <img alt="project screenshot" src="./images/CollaBoard.png" />
+          <h1>CollaBoard</h1>
+          <a href="https://collaboard-app.herokuapp.com/">SEE THE APP</a>
+          <a href="https://github.com/CollaBoard/CollaBoard">PERUSE THE CODE</a>
+          <figcaption>Built with Postgres, React, Redux, Express, and Node </figcaption>
+          <figcaption>Also uses Socket.io, HTML5 Canvas, WebRTC, Draft.js, and Prism.js </figcaption>
+          <p>A live-synched whiteboard and text editor, with peer-to-peer video chat and typed chat. Ideal for remote classrooms, for remote team management, and for technical interviewing.</p>
+          <h4>My focus: Redux, Text editor with JS syntax highlighting (built on Draft.js, Prism.js), Scrum master leadership (led team meetings, curated project Github boards, and groomed backlog).</h4>
         </Element>
         <button onClick={scrollToSecond} className="examples">
           EVEN MORE
-          <i className="fa fa-2x fa-arrow-down"></i>
+          <i className="fa fa-2x fa-caret-down"></i>
         </button>
         <Element className="project-snapshot" name="second-project" id="second-project">
           <img alt="project screenshot" src="./images/TournamentManager.png" />
         </Element>
         <button onClick={scrollToThird} className="examples">
           MORE STILL
-          <i className="fa fa-2x fa-arrow-down"></i>
+          <i className="fa fa-2x fa-caret-down"></i>
         </button>
         <Element className="project-snapshot" name="third-project" id="third-project">
           <img alt="project screenshot" src="./images/WageGapCalculator.png" />
