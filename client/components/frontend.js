@@ -7,12 +7,13 @@ class Frontend extends React.Component {
         <div className="section-header">
           <h1>Front-End</h1>
           <h3>Or my projects from my brief time at The Iron Yard</h3>
-          <p>Everything you see here was built in a day or weekend. Days that are missing were usually days that did not produce a visible result (JS exercises, etc.) For more on the differences between The Iron Yard and Hack Reactor (which should make it clear why I, personally, switched) see a few of my blog posts
+          <p>Everything you see here was built in a day or weekend and hosted on Surge.sh. Days that are missing were usually days that did not produce a visible result (JS exercises, etc.). For more on the differences between The Iron Yard and Hack Reactor (which should make it clear why I, personally, switched) see a few of my blog posts
             <a href="https://medium.com/@christian.straubhaar/hack-reactor-vs-the-iron-yard-part-1-autonomy-and-pacing-e3a5cdb4957#.4a7aywxer"> HERE</a> and
             <a href="https://medium.com/@christian.straubhaar/survival-on-coding-bootcamp-teaching-styles-hack-reactor-vs-iron-yard-pt-2-a9af58b847de#.tseou4d5x"> HERE</a>.
           </p>
           <h2>See me grow from a baby developer to a . . . still pretty basic developer!</h2>
           <h4>My final development to actual viable junior developer can be seen in the full-stack work, completed at Hack Reactor. <br></br> Click the "Full-Stack" link above.</h4>
+          <h3><i className="fa fa-3x fa-caret-down"></i></h3>
         </div>
         <div className="project-snapshot">
           <h1>Weekend 3</h1>
