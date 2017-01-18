@@ -6,37 +6,46 @@
 //
 // For more info, see http://lesscss.org/features/#import-options
 
+@text: #53565a;
+@background: #78d4f7;
+@font: "Garamond", serif;
+@menus: #c18d3d;
+@navheight: 3.4rem;
+@linkhover: #009ccf;
+@linkfontsize: 1.4rem;
+@captionfontsize: 1.25rem;
+@pfontsize: 1.3rem;
 
 body {
-  color: #53565a;
-  background-color: #78d4f7;
-  font-family: "Garamond", serif;
+  color: @text;
+  background-color: @background;
+  font-family: @font;
 }
 
 .nav {
   z-index: 100;
   position: fixed;
-  background-color: #c18d3d;
+  background-color: @menus;
   list-style: none;
   width: 100vw;
-  height: 3.4rem;
+  height: @navheight;
   top: 0rem;
   left: 0rem;
-  border-bottom: 2px solid #53565a;
+  border-bottom: 2px solid @text;
   .monogram {
-    height: 3.4rem;
+    height: @navheight;
     float: left;
   }
   a {
-    color: #53565a;
+    color: @text;
     text-decoration: none;
     margin: 1rem;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: @linkfontsize;
     font-weight: bold;
     float: right;
     &:hover{
-      color: #009ccf;
+      color: @linkhover;
     }
   }
   .nav-last {
@@ -45,7 +54,7 @@ body {
 }
 
 .hero {
-  padding: 3.4rem 0 0 0;
+  padding: @navheight 0 0 0;
   display: block;
   text-align: center;
   img {
@@ -59,25 +68,25 @@ body {
   h1 {
   }
   figcaption {
-    font-size: 1.25rem;
+    font-size: @captionfontsize;
     position: relative;
     left: 20%;
     width: 60%;
   }
 }
 .examples {
-  color: #53565a;
+  color: @text;
   padding: 1rem;
-  background-color: #c18d3d;
-  font-family: "Garamond", serif;
+  background-color: @menus;
+  font-family: @font;
   display: block;
   margin: 0 auto;
-  font-size: 1.4rem;
+  font-size: @linkfontsize;
   border-radius: 1rem;
   font-weight: bold;
   outline: none;
   &:hover{
-    color: #009ccf;
+    color: @linkhover;
   }
   i {
     display: block;
@@ -106,19 +115,43 @@ body {
   a{
     display: block;
     text-decoration: none;
-    color: #53565a;
+    color: @text;
     text-align: center;
     margin: 0.5rem;
     &:hover{
-      color: #009ccf;
+      color: @linkhover;
     }
   }
   p {
-    font-size: 1.3rem;
+    font-size: @pfontsize;
     margin: 1rem 0;
   }
   figcaption {
     font-size: 1rem;
     text-align: right;
+  }
+}
+
+.section-header{
+  text-align: center;
+  display: block;
+  width: 85%;
+  margin: @navheight + 1rem 7.5% 0 7.5%;
+  h1{
+    font-size: 3.5rem;
+    margin: 0.5rem;
+  }
+  p{
+    text-align: left;
+    font-size: @pfontsize;
+    margin: 1rem 0;
+    a{
+      text-decoration: none;
+      color: @text;
+      font-weight: bold;
+      &:hover{
+        color: @linkhover;
+      }
+    }
   }
 }

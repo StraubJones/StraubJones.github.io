@@ -30,6 +30,7 @@ class Home extends React.Component {
   render(){
     return (
       <div>
+
         <figure className="hero">
           <img alt="Headshot" src="./images/headshot.jpg" />
           <h1>Welcome!</h1>
@@ -41,6 +42,7 @@ class Home extends React.Component {
           SOME EXAMPLES
           <i className="fa fa-2x fa-caret-down"></i>
         </button>
+
         <Element className="project-snapshot" name="first-project" id="first-project">
           <h1>CollaBoard</h1>
           <h2>MY PART: SCRUM MASTER, REDUX, TEXT EDITOR</h2>
@@ -55,6 +57,7 @@ class Home extends React.Component {
           EVEN MORE
           <i className="fa fa-2x fa-caret-down"></i>
         </button>
+
         <Element className="project-snapshot" name="second-project" id="second-project">
           <h1>Tournament Manager</h1>
           <h2>MY PART: PRODUCT OWNER, FIREBASE</h2>
@@ -67,6 +70,7 @@ class Home extends React.Component {
           MORE STILL
           <i className="fa fa-2x fa-caret-down"></i>
         </button>
+
         <Element className="project-snapshot" name="third-project" id="third-project">
           <h1>Intersectional Wage Gap Calculator and Graph Generator</h1>
           <h2>MY PART: PRODUCT OWNER, D3, ANGULAR FRONT-END</h2>
@@ -75,8 +79,8 @@ class Home extends React.Component {
           <figcaption>Also uses D3, Angular Material</figcaption>
           <p>Generates dynamic graphs regarding wage-gaps between various groups based on user-chosen variables.</p>
           <a href="https://github.com/MKS47GreenfieldAndLegacy/Wage-Gap-Calculator">PERUSE THE CODE</a>
-
         </Element>
+        
       </div>
     )
   }
