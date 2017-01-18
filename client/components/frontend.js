@@ -5,9 +5,8 @@ class Frontend extends React.Component {
     return (
       <div className="frontend">
         <div className="section-header">
-          <h1>Front-End</h1>
-          <h3>Or my projects from my brief time at The Iron Yard</h3>
-          <p>Everything you see here was built in a day or weekend and hosted on Surge.sh. Days that are missing were usually days that did not produce a visible result (JS exercises, etc.). For more on the differences between The Iron Yard and Hack Reactor (which should make it clear why I, personally, switched) see a few of my blog posts
+          <h1 className="long-title">My projects from my brief time at The Iron Yard</h1>
+          <p>Everything you see here was built in a day or weekend and hosted on Surge.sh, as part of The Iron Yard Front-End Engineering curriculum. Days that are missing were usually days that did not produce a visible result (JS exercises, etc.). For more on the differences between The Iron Yard and Hack Reactor (which should make it clear why I, personally, switched) see a few of my blog posts
             <a href="https://medium.com/@christian.straubhaar/hack-reactor-vs-the-iron-yard-part-1-autonomy-and-pacing-e3a5cdb4957#.4a7aywxer"> HERE</a> and
             <a href="https://medium.com/@christian.straubhaar/survival-on-coding-bootcamp-teaching-styles-hack-reactor-vs-iron-yard-pt-2-a9af58b847de#.tseou4d5x"> HERE</a>.
           </p>

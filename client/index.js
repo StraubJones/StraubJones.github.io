@@ -15,11 +15,12 @@ ReactDOM.render(
   <Router history={browserHistory}>
       <Route path="/" component={Nav}>
         <IndexRoute component={Home} />
+        <Route path="/fullstack" component={Home}/>
         <Route path="/frontend" component={Frontend}/>
         <Route path="/humanities" component={Humanities}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
-      </Route>  
+      </Route>
   </Router>,
   document.getElementById('app')
 );
