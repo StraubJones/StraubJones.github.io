@@ -36,6 +36,7 @@ class Home extends React.Component {
           <h1>Welcome!</h1>
           <figcaption>I am Christian Straubhaar-Jones, a full-stack web developer.
           I build apps that enable better teamwork, that can reach more users through accessibility, and that explore alternative tools to find more robust solutions.
+          <br></br><br></br>On this page you will find my most advanced full-stack apps. Other pages above, like FRONT-END or DH (for digital humanities), show my earliest development work or my pre-developer work, showcasing the trajectory that led me from no experience to being able to build apps like the ones below in under a year.
           </figcaption>
         </figure>
         <button onClick={scrollToFirst} className="examples">
@@ -80,7 +81,7 @@ class Home extends React.Component {
           <p>Generates dynamic graphs regarding wage-gaps between various groups based on user-chosen variables.</p>
           <a href="https://github.com/MKS47GreenfieldAndLegacy/Wage-Gap-Calculator">PERUSE THE CODE</a>
         </Element>
-        
+
       </div>
     )
   }
