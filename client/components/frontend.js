@@ -12,7 +12,7 @@ class Frontend extends React.Component {
           </figcaption>
           <img src="./images/frontend/evolution.svg"/>
           <h2>See me grow from a complete newcomer to a basic developer!</h2>
-          <h4>My final development to a fully-equipped developer can be seen in the full-stack work, completed at Hack Reactor. <br></br> Click the "Full-Stack" link above.</h4>
+          <h4>My final development can be seen in my full-stack work, completed at Hack Reactor. <br></br> Click the "Full-Stack" link above.</h4>
           <h3><i className="fa fa-3x fa-caret-down"></i></h3>
         </figure>
         <figure className="project-snapshot">
