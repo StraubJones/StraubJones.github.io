@@ -3,7 +3,7 @@ const React = require('react');
 class Humanities extends React.Component {
   render(){
     return (
-      <div>
+      <div className="main">
         <figure className="section-header">
           <h1 className="long-title">Digital Humanities Projects from my PhD</h1>
           <figcaption>Here you can see the work I did during my PhD in German, focusing on medieval mystic literature and critical masculinity / gender studies. It was participating in this work that led me to find my true passion for good software and eventually leave behind academia in order to retrain for web development.</figcaption>

@@ -3,7 +3,7 @@ const React = require('react');
 class Frontend extends React.Component {
   render(){
     return (
-      <div className="frontend">
+      <div className="frontend main">
         <figure className="section-header">
           <h1 className="long-title">My Earliest Development Projects</h1>
           <figcaption>Everything you see here was built by myself in a day or weekend and hosted on Surge.sh, as part of The Iron Yard Front-End Engineering curriculum. The two group projects are labeled as such, but everything else, flaws and all, is entirely mine. Days that are missing were usually days that did not produce a visible result, such as JS exercises, etc. For more on the differences between The Iron Yard and Hack Reactor, and why I switched, see a few of my blog posts
