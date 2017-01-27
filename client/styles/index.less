@@ -196,13 +196,19 @@ a {
   }
 }
 
-.bar {
-  fill: @linkhover;
-  &:hover {
-    fill: @text;
+.bar-chart{
+  // background-color: @menus;
+  svg{
+    fill: @menus;
   }
-}
+  .bar {
+    fill: @linkhover;
+    &:hover {
+      fill: @text;
+    }
+  }
 
-.axis--x path {
-  display: none;
+  .axis--x path {
+    display: none;
+  }
 }
