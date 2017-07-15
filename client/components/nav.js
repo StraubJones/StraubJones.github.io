@@ -8,9 +8,10 @@ class Nav extends React.Component {
         <img className="monogram" src="./images/Monogram.svg"/>
         <Link className="nav-last" activeClassName="active-nav" to="/contact">Contact</Link>
         <Link activeClassName="active-nav" to="/about">About</Link>
+        <Link activeClassName="active-nav" to="/now">Now</Link>
         <Link activeClassName="active-nav" to="/humanities">DH</Link>
-        <Link activeClassName="active-nav" to="/frontend">Front-End</Link>
-        <Link activeClassName="active-nav" to="/fullstack" >Full-Stack</Link>
+        <Link activeClassName="active-nav" to="/training">Training</Link>
+        <Link activeClassName="active-nav" to="/home" >Home</Link>
       </div>
     )
   }
@@ -31,7 +32,9 @@ class Footer extends React.Component {
 const Container = (props) =>
   <div>
     <Nav />
-    {props.children}
+    <div className="main-container">
+      {props.children}
+    </div>
     <Footer />
   </div>
 

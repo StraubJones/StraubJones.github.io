@@ -1,20 +1,16 @@
-// Here are some examples of importing other files:
-//
-//     @import "my-file.less";
-//     @import (reference) "my-variables.less";
-//     @import (inline) "some-node-module/dist/style.css";
-//
-// For more info, see http://lesscss.org/features/#import-options
-
 @text: #53565a;
 @background: #78d4f7;
 @font: "Garamond", serif;
 @menus: #c18d3d;
 @navheight: 3.4rem;
-@linkhover: #009ccf;
+@footerheight: @navheight + 3rem;
+@linkhover: #b4fdc0;
 @linkfontsize: 1.4rem;
 // @captionfontsize: 1.25rem;
 @pfontsize: 1.3rem;
+@smallfontsize: 1rem;
+@smartphones: ~"only screen and (max-width: 479px)";
+@tablets: ~"only screen and (min-width: 768px) and (max-width: 959px)";
 
 // .main {
 //   min-height: 90vh - (@navheight * 2) + 1rem;
@@ -34,7 +30,13 @@ a {
   font-weight: bold;
   &:hover{
     color: @linkhover;
+    outline: 2px solid @font;
   }
+}
+
+a.small-link{
+  font-size: @smallfontsize;
+  margin: 0;
 }
 
 .nav {
@@ -65,7 +67,6 @@ a {
   }
 }
 
-
 .hero {
   // min-height: 100vh - @navheight - @navheight;
 
@@ -79,8 +80,6 @@ a {
     border-radius: 50%;
     width: 33%;
     margin-top: 10vh;
-  }
-  h1 {
   }
   figcaption {
     font-size: @pfontsize;
@@ -140,7 +139,7 @@ a {
     text-align: center;
   }
   figcaption {
-    font-size: 1rem;
+    font-size: @smallfontsize;
     text-align: right;
   }
 }
@@ -175,12 +174,12 @@ a {
 }
 
 .footer{
-  height: @navheight - 1rem;
+  height: @footerheight;
   background-color: @menus;
-  padding: 1rem;
-  position: relative;
+  padding: 0.5rem 1rem;
+  position: fixed;
   left: -0.5rem;
-  top: 0.5rem;
+  top: 100% - @footerheight;
   width: 100%;
   border-top: 2px solid @text;
   .copyright{
@@ -211,4 +210,46 @@ a {
   .axis--x path {
     display: none;
   }
+}
+
+.now-lists {
+  text-align: left;
+  li{
+    padding-top: 0.5rem;
+  }
+  figcaption {
+    text-align: left;
+    font-size: @pfontsize;
+    margin: 1rem 0;
+  }
+  figcaption.center {
+    text-align: center;
+  }
+}
+
+.center{
+  text-align: center;
+}
+.section-header.frontend{
+  margin-top: 0;
+  padding: 5rem 0 0 0;
+}
+
+// @media @smartphones, @tablets {
+//   .footer{
+//     height: 3%;
+//     top: 97%;
+//   }
+// }
+
+a.no-marg {
+  margin: 0;
+}
+
+.bar {
+  fill: @text;
+}
+
+.bar:hover {
+  fill: @linkhover;
 }
