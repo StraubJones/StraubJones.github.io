@@ -39,11 +39,11 @@ class About extends React.Component {
         chartHeight: self.state.chartWidth * 0.7
       }, ()=>{
         let barWidth = self.state.chartWidth/12
-        let vis = d3.select('.bar-graph')
-          .html("")
-          .append('svg')
-          .attr('width', self.state.chartWidth)
-          .attr('height', self.state.chartHeight)
+        // let vis = d3.select('.bar-graph')
+        //   .html("")
+        //   .append('svg')
+        //   .attr('width', self.state.chartWidth)
+        //   .attr('height', self.state.chartHeight)
           // .selectAll(".bar")
           // .data(skills)
           // .enter().append("rect")
@@ -68,7 +68,6 @@ class About extends React.Component {
             <br></br>I've found my passion in software development. I feel coding unlocks so many possibilities in today's world. I want to share that passion with you.
             <br></br>If you have a worthy project that needs some minor freelance or volunteer attention, and my skills fit your needs, let me know.
           </figcaption>
-          <figcaption className="center">This D3 chart should give you an idea of my areas of expertise as a developer:</figcaption>
         </figure>
         <figure className="bar-graph">
         </figure>
@@ -76,5 +75,8 @@ class About extends React.Component {
     )
   }
 }
+// TODO: add this caption above the chart
+// <figcaption className="center">This D3 chart should give you an idea of my areas of expertise as a developer:</figcaption>
+
 
 module.exports = About;
