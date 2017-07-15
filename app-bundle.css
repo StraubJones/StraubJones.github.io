@@ -1,0 +1,210 @@
+body {
+  color: #53565a;
+  background-color: #78d4f7;
+  font-family: "Garamond", serif;
+}
+a {
+  color: #53565a;
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+a:hover {
+  color: #b4fdc0;
+  outline: 2px solid "Garamond", serif;
+}
+a.small-link {
+  font-size: 1rem;
+  margin: 0;
+}
+.nav {
+  z-index: 100;
+  position: fixed;
+  background-color: #c18d3d;
+  list-style: none;
+  width: 100%;
+  height: 3.4rem;
+  top: 0rem;
+  left: 0rem;
+  border-bottom: 2px solid #53565a;
+}
+.nav a {
+  float: right;
+  display: inline-block;
+}
+.nav .monogram {
+  height: 3.4rem;
+  float: left;
+}
+.nav .nav-last {
+  padding-right: 1rem;
+}
+.nav .active-nav {
+  color: #fff;
+  text-shadow: 0.2rem 0.2rem 0.2rem #53565a;
+}
+.hero {
+  padding: 3.4rem 0 0 0;
+  display: block;
+  text-align: center;
+}
+.hero img {
+  display: block;
+  position: relative;
+  left: 33%;
+  border-radius: 50%;
+  width: 33%;
+  margin-top: 10vh;
+}
+.hero figcaption {
+  font-size: 1.3rem;
+  position: relative;
+  left: 20%;
+  width: 60%;
+}
+.examples {
+  color: #53565a;
+  padding: 1rem;
+  background-color: #c18d3d;
+  font-family: "Garamond", serif;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  outline: none;
+}
+.examples:hover {
+  color: #b4fdc0;
+}
+.examples i {
+  display: block;
+  margin: 0 auto;
+}
+.project-snapshot {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  padding: 5rem 5rem 1rem 5rem;
+}
+.project-snapshot img {
+  width: 100%;
+}
+.project-snapshot h1 {
+  margin: 0.5rem auto;
+  text-align: center;
+  font-size: 3rem;
+}
+.project-snapshot h2 {
+  margin: 0.5rem auto;
+  text-align: center;
+  font-weight: normal;
+}
+.project-snapshot a {
+  display: block;
+  text-align: center;
+  margin: 0.5rem;
+}
+.project-snapshot p {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.project-snapshot .frontend-p {
+  text-align: center;
+}
+.project-snapshot figcaption {
+  font-size: 1rem;
+  text-align: right;
+}
+.section-header {
+  text-align: center;
+  display: block;
+  width: 85%;
+  margin: 13.4rem 7.5% 0 7.5%;
+}
+.section-header h1 {
+  font-size: 3.5rem;
+  margin: 0.5rem;
+}
+.section-header h1.long-title {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+.section-header figcaption {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.section-header figcaption.center {
+  text-align: center;
+}
+.section-header a {
+  margin: 0;
+}
+.section-header img {
+  width: 100%;
+}
+.footer {
+  height: 6.4rem;
+  background-color: #c18d3d;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  left: -0.5rem;
+  top: 93.6%;
+  width: 100%;
+  border-top: 2px solid #53565a;
+}
+.footer .copyright {
+  font-size: 0.9rem;
+  display: inline-block;
+}
+.footer img {
+  float: right;
+  padding: 0.8rem;
+}
+.footer img .footer-last {
+  padding-right: 2rem;
+}
+.bar-chart svg {
+  fill: #c18d3d;
+}
+.bar-chart .bar {
+  fill: #b4fdc0;
+}
+.bar-chart .bar:hover {
+  fill: #53565a;
+}
+.bar-chart .axis--x path {
+  display: none;
+}
+.now-lists {
+  text-align: left;
+}
+.now-lists li {
+  padding-top: 0.5rem;
+}
+.now-lists figcaption {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.now-lists figcaption.center {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.section-header.frontend {
+  margin-top: 0;
+  padding: 5rem 0 0 0;
+}
+a.no-marg {
+  margin: 0;
+}
+.bar {
+  fill: #53565a;
+}
+.bar:hover {
+  fill: #b4fdc0;
+}
