@@ -8,6 +8,10 @@ As this site states, I like to explore new tools! The ones that I explored for t
 - [React Scroll](https://github.com/fisshy/react-scroll) (an open source project)
 - LESS
 
+## Personal Backlog
+Some things I'd like to get working better.
+- Mobile footer oddness.
+- D3 chart for skills.
 
 ## Getting Started
 
